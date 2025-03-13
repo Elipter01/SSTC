@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shiv Shakti Transport Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">SHIV SHAKTI<span> TRANSPORT COMPANY</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="Branch.html" class="nav-link">Branch</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap" style="background-image: url('images/Checking.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text justify-content-start align-items-center">
+          <div class="col-lg-6 col-md-6 ftco-animate d-flex align-items-end">
+          	<div class="text">
+	            <h1 class="mb-4">Now <span>It's easy for you</span> <span>rent a Truck</span></h1>
+	            <p style="font-size: 18px;">Good logistics means a seamless flow of goods, ideas, and people across distances, borders, and challenges.</p>
+	            <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4">
+	            	<div class="icon d-flex align-items-center justify-content-center">
+	            		<span class="ion-ios-play"></span>
+	            	</div>
+	            	<div class="heading-title ml-5">
+		            	<span>Easy steps for renting a Truck</span>
+	            	</div>
+	            </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col"></div>
+          <div class="col-lg-4 col-md-6 mt-0 mt-md-5 d-flex">
+          	<form action="#" class="request-form ftco-animate">
+          		<h2>Make your trip</h2>
+	    				<div class="form-group">
+	    					<label for="" class="label">Pick-up location</label>
+	    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
+	    				</div>
+	    				<div class="form-group">
+	    					<label for="" class="label">Drop-off location</label>
+	    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
+	    				</div>
+	    				<div class="d-flex">
+	    					<div class="form-group mr-2">
+	                <label for="" class="label">Pick-up date</label>
+	                <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+	              </div>
+	              <div class="form-group ml-2">
+	                <label for="" class="label">Drop-off date</label>
+	                <input type="text" class="form-control" id="book_off_date" placeholder="Date">
+	              </div>
+              </div>
+              <div class="form-group">
+                <label for="" class="label">Pick-up time</label>
+                <input type="text" class="form-control" id="time_pick" placeholder="Time">
+              </div>
+			  <div class="form-group">
+				<input type="submit" id="get-quotation-btn" value="Get Quotation" class="btn btn-primary py-3 px-4">
+			</div>
+			<style>
+				.btn-primary {
+					background-color: #007bff;
+					color: white;
+					border: 2px solid transparent;
+					border-radius: 5px;
+					font-size: 16px;
+					transition: all 0.3s ease-in-out;
+				}
+			
+				.btn-primary:hover {
+					background-color: #0056b3;
+					transform: scale(1.1); 
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				}
+			
+				.btn-primary:focus {
+					outline: none;
+					box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.6);
+				}
+			</style>		
+		</form>
+	</div>
+		  </div>
+		</div>
+		<script>
+			document.getElementById('get-quotation-btn').addEventListener('click', function(event) {
+				event.preventDefault();
+				const message = "Thank you for your interest!\n\nOur customer service team will contact you shortly.\n\nIf you wish, you can also reach out to us at:\n📞 9362444015, 9362444016";
+				alert(message);
+				const btn = document.getElementById('get-quotation-btn');
+				btn.style.backgroundColor = '#4CAF50';
+				btn.style.color = 'white';
+				btn.style.border = 'none';
+				btn.style.padding = '10px 20px';
+				btn.style.borderRadius = '5px';
+				btn.style.fontSize = '16px';
+			});
+		</script>
+	    			
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+    	<div class="container">
+	    	<div class="row">
+					<div class="col-md-12">
+						<div class="search-wrap-1 ftco-animate mb-5">
+							<form action="#" class="search-property-1">
+		        		<div class="row">
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<label for="#">Truck Name</label>
+		        					<div class="form-field">
+		          					<div class="select-wrap">
+		                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                      <select name="" id="" class="form-control">
+		                      	<option value="">Select Model</option>
+		                        <option value="">Dost</option>
+		                        <option value="">Bada Dost</option>
+		                        <option value="">Model 3</option>
+		                        <option value="">Model 4</option>
+		                        <option value="">Model 5</option>
+		                        <option value="">Model 6</option>
+		                        <option value="">Model 7</option>
+		                        <option value="">Model 8</option>
+		                        <option value="">Model 9</option>
+		                        <option value="">Model 10</option>
+		                      </select>
+		                    </div>
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<label for="#">Pick-Up</label>
+		        					<div class="form-field">
+		          					<div class="select-wrap">
+		                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                      <select name="" id="" class="form-control">
+		                      	<option value="">Location</option>
+		                        <option value="">Andheri</option>
+		                        <option value="">Bhiwandi</option>
+		                        <option value="">Ullhas Nagar</option>
+		                        <option value="">Brand 4</option>
+		                        <option value="">Brand 5</option>
+		                        <option value="">Brand 6</option>
+		                        <option value="">Brand 7</option>
+		                        <option value="">Brand 8</option>
+		                        <option value="">Brand 9</option>
+		                        <option value="">Brand 10</option>
+		                      </select>
+		                    </div>
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<label for="#">Drop-Off</label>
+		        					<div class="form-field">
+		          					<div class="select-wrap">
+		                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                      <select name="" id="" class="form-control">
+		                      	<option value="">Location</option>
+		                        <option value="">Bangalore</option>
+		                        <option value="">Kalasipalyam</option>
+		                        <option value="">Peenya</option>
+		                        <option value="">Mysore Road</option>
+		                        <option value="">Cubbonpete</option>
+		                        <option value="">Lalbagh</option>
+		                      </select>
+		                    </div>
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group">
+		        					<label for="#">Weight/Tons</label>
+		        					<div class="form-field">
+		          					<div class="select-wrap">
+		                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                      <select name="" id="" class="form-control">
+		                      	<option value="">Ton</option>
+		                        <option value="">5 Ton</option>
+		                        <option value="">10 Ton</option>
+		                        <option value="">15 Ton</option>
+		                        <option value="">20 Ton</option>
+		                        <option value="">25 Ton</option>
+		                        <option value="">30 Ton</option>
+		                        <option value="">35 Ton</option>
+		                        <option value="">40 Ton</option>
+		                        <option value="">45 Ton</option>
+		                        <option value="">50 Ton</option>
+		                        <option value="">55 Ton</option>
+		                      </select>
+		                    </div>
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-self-end">
+		        				<div class="form-group">
+		        					<div class="form-field">
+				                <input type="submit" value="Search" class="form-control btn btn-primary">
+				              </div>
+			              </div>
+		        			</div>
+		        		</div>
+		        	</form>
+		        </div>
+					</div>
+	    	</div>
+	    </div>
+    </section>
+
+    <section class="ftco-section services-section ftco-no-pt ftco-no-pb">
+      <div class="container">
+      	<div class="row justify-content-center">
+          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+          	<span class="subheading">Our Moto</span>
+            <h2 class="mb-2">Our Services</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services">
+              <div class="media-body py-md-4">
+              	<div class="d-flex mb-3 align-items-center">
+	              	<div class="icon"><span class="flaticon-customer-support"></span></div>
+	                <h3 class="heading mb-0 pl-3">24/7 Customer Support</h3>
+                </div>
+                <p>Customer support is the team of people who provide help when customers have trouble with a company's products or services</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services">
+              <div class="media-body py-md-4">
+              	<div class="d-flex mb-3 align-items-center">
+	              	<div class="icon"><span class="flaticon-route"></span></div>
+	                <h3 class="heading mb-0 pl-3">Location</h3>
+                </div>
+                <p>Our Shiva Shakti Transport team has almost covered the entire route from Mumbai to Bangalore.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services">
+              <div class="media-body py-md-4">
+              	<div class="d-flex mb-3 align-items-center">
+	              	<div class="icon"><span class="flaticon-online-booking"></span></div>
+	                <h3 class="heading mb-0 pl-3">Reservation</h3>
+                </div>
+                <p>You can book our truck or logistics services online through reservation.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services">
+              <div class="media-body py-md-4">
+              	<div class="d-flex mb-3 align-items-center">
+	              	<div class="icon"><span class="flaticon-rent"></span></div>
+	                <h3 class="heading mb-0 pl-3">Rental Trucks</h3>
+                </div>
+                <p>You can rent our truck based on your needs, and we will offer you the best rates.</p>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section services-section img" style="background-image: url(images/bg_2.jpg);">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          	<span class="subheading">Work flow</span>
+            <h2 class="mb-3">How it works</h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services services-2">
+              <div class="media-body py-md-4 text-center">
+              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
+                <h3>Pick Destination</h3>
+                <p>Enter your desired location for pickup or drop-off.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services services-2">
+              <div class="media-body py-md-4 text-center">
+              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-select"></span></div>
+                <h3>Select Plan</h3>
+                <p>Choose a pricing option or service level that fits your needs.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services services-2">
+              <div class="media-body py-md-4 text-center">
+              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rent"></span></div>
+                <h3>Choose A Truck</h3>
+                <p>Select a truck that suits your comfort and budget.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services services-2">
+              <div class="media-body py-md-4 text-center">
+              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-review"></span></div>
+                <h3>Enjoy The Ride</h3>
+                <p>Relax and experience a smooth journey.</p>
+              </div>
+            </div>      
+          </div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+          	<span class="subheading">Testimonial</span>
+            <h2 class="mb-3">Happy Clients</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Roger Scott</p>
+                    <span class="position">Marketing Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Roger Scott</p>
+                    <span class="position">Interface Designer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Roger Scott</p>
+                    <span class="position">UI Designer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Roger Scott</p>
+                    <span class="position">Web Developer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Roger Scott</p>
+                    <span class="position">System Analyst</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+					</div>
+					<div class="col-md-6 wrap-about py-md-5 ftco-animate">
+	          <div class="heading-section mb-5 pl-md-5">
+	          	<span class="subheading">About us</span>
+	            <h2 class="mb-4">Choose A Perfect Services</h2>
+
+	            <p>At Shiv Shakti Transport Company (SSTC), we offer a range of logistics solutions tailored to meet your needs. Whether you require fast parcel delivery, bulk transportation, or specialized logistics, we have the right service for you.</p>
+	            <p>Our Services Include:</p>
+					<p>✅ Express Delivery – Timely and secure parcel transportation.</p>
+					<p>✅ Freight Services – Reliable bulk cargo movement.</p>
+					<p>✅ Customized Logistics – Solutions designed for specific business needs.</p>
+					<P>✅ Door-to-Door Delivery – Hassle-free pickup and drop-off.</P>
+					<p>With experienced staff and a commitment to punctuality, SSTC ensures smooth and efficient service every time. Choose the perfect logistics solution and experience stress-free delivery! 🚛📦</p>
+	            <p><a href="#" class="btn btn-primary">Search Vehicle</a></p>
+	          </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Blog</span>
+            <h2>Recent Blog</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text pt-4">
+              	<div class="meta mb-3">
+                  <div><a href="#">Jan. 24, 2025</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text pt-4">
+              	<div class="meta mb-3">
+                  <div><a href="#">Jan. 24, 2025</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text pt-4">
+              	<div class="meta mb-3">
+                  <div><a href="#">Feb. 24, 2025</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>		
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About SSTC</h2>
+              <p>Shiv Shakti Transport Company (SSTC) is a trusted name in logistics, renowned for its commitment to on-time parcel delivery.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">Services</a></li>
+                <li><a href="#" class="py-2 d-block">Term and Conditions</a></li>
+                <li><a href="#" class="py-2 d-block">Best Price Guarantee</a></li>
+                <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Customer Support</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Payment Option</a></li>
+                <li><a href="#" class="py-2 d-block">Booking Tips</a></li>
+                <li><a href="#" class="py-2 d-block">How it works</a></li>
+                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">7th Cross, H.Siddaiah Road, Bangalore : 560027</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9362444016</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </i> 
+</a>
+</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.app.goo.gl/CVbhnQwszXB8jN3z6"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
